@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Home</title>
+        <?php echo $this->Html->css('test'); ?>
+    </head>
+	<body>
+		<div class="outer">
+            		<div class="main">
+			
+			<?php echo $this->Element('header'); ?>
+			
+			<?php echo $this->fetch('content');?>
+			
+			<?php echo $this->Element('footer');?>
+			
+			
+			</div>
+		</div>
+
+
+    	</body>
+</html>

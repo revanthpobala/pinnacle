@@ -1,0 +1,18 @@
+
+<div class="right-panel">
+<div class="right-panel-in">
+<div class="row">
+<h2 class="title"><span>Welcome<span>Administrator</span></span></h2>
+<div class="row2">
+<?php
+echo $this->Form->create('Admin');
+echo $this->Form->input('email',array('id'=>'email','label'=>"Your Email"));
+echo $this->Form->input('password',array('id'=>'password','type'=>'password','label'=>'password'));
+echo $this->Form->end('Login');
+echo $this->Form->end();
+?>
+
+</div>
+</div>
+
+
